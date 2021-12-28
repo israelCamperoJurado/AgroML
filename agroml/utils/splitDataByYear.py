@@ -41,7 +41,6 @@ def splitDataByYear(
     assert 'station' in df.columns, "'station'does not exist in the dataframe"
     assert 'date' in df.columns, "'date' does not exist in the dataframe"
     assert 'year' in df.columns, "'year' does not exist in the dataframe"
-
     #join all var configurations
     varList = varListInputs + varListOutputs
 
